@@ -9,3 +9,5 @@ docx
 unstructured
 tiktoken
 langchain-openai
+langchain-community
+
