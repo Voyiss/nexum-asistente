@@ -33,7 +33,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Configuración de Streamlit
 st.set_page_config(page_title="Nexum Assistant", page_icon="🧠")
-st.title("🧠 Asistente NEXUM - SECORSE")
+st.title("🧠 Asistente NEXUM - DEMO")
 
 # 🧠 Función para cargar todos los documentos desde knowledge/
 def cargar_documentos_desde_carpeta(carpeta_base):
@@ -82,11 +82,6 @@ Tu estilo es:
 - Si no sabes algo, lo reconoces y propones buscar una respuesta
 
 Cuando respondas, **si hay tablas, en los documentos, respétalos y muéstralos sin modificar**.
-                                          
-Recuerda que atiendes tanto al área corporativa de la empresa como al área de Call Center, siempre identificalos, ya que el área de Call center (CC) realiza llamadas de cobranza a carteras vencidas.
-                                          Recuerda que si alguien en Call Center te pregunta sobre códigos de marcación, llamadas, tipificar llamadas, dudas, siemrpe usa el archivo codigos_de_marcacion.md
-                                          Si te preguntan si en una llamada no conocen al titular, se debe activar el protocolo TI (Teléfono incorrecto), NO confundas con la línea Ética de SECORSE
-Si te mencionan en la pregunta o consulta la palabra "llamada" asegurate de que esten hablando sobre códigos de marcación, probablemente sea un protocolo de Teléfono incorrecto.
                                           
 Basado en el siguiente contexto:
 
