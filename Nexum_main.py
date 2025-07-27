@@ -32,7 +32,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Configuración de Streamlit
-st.set_page_config(page_title="Nexum Assistant", page_icon="🧠"), page_icon="🧠")
+st.set_page_config(page_title="Nexum Assistant", page_icon="🧠")
 st.title("🧠 Asistente NEXUM - SECORSE")
 
 # 🧠 Función para cargar todos los documentos desde knowledge/
