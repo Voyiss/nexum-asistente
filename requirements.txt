@@ -8,3 +8,4 @@ PyPDF2
 docx
 unstructured
 tiktoken
+langchain-openai
