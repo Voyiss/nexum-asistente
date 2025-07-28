@@ -10,4 +10,6 @@ unstructured
 tiktoken
 langchain-openai
 langchain-community
-
+PyYAML
+sqlite3
+chromadb

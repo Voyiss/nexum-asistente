@@ -1,0 +1,9 @@
+# Archivo de configuración para Nexum Assistant
+llm:
+  model_name: "gpt-4o-mini" # Usamos gpt-4o-mini que es más nuevo y económico
+  temperature: 0.1
+
+paths:
+  knowledge_base: "knowledge"
+  history_file: "data/conversaciones.db" # Moveremos el historial a una subcarpeta 'data'
+  vector_store: "vector_db" # Ruta para la base de datos vectorial persistente
