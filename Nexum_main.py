@@ -102,7 +102,7 @@ def preparar_asistente():
     # Prepara el almacén de vectores con ChromaDB
     vectorstore = Chroma(
         persist_directory=vector_db_path,
-        embedding_function=OpenAIEmbeddings()
+        embedding_function=OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
     )
 
     # Comprueba si la base de datos ya tiene documentos

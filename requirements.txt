@@ -11,4 +11,5 @@ python-docx
 unstructured
 tiktoken
 PyYAML
-chromadb
+chromadb==0.4.24
+pydantic<=1.10.13
